@@ -48,4 +48,5 @@ return require('packer').startup(function(use)
   }
 
   use('APZelos/blamer.nvim')
+  use('sbdchd/neoformat')
 end)

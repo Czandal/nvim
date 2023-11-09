@@ -5,6 +5,8 @@ lsp.preset("recommended")
 lsp.ensure_installed({
   'tsserver',
   'rust_analyzer',
+  'clangd',
+  'zls'
 })
 
 local cmp = require('cmp')
@@ -44,6 +46,7 @@ lsp.on_attach(function(client, bufnr)
   vim.keymap.set('n', '<space>rn', vim.lsp.buf.rename, opts)
   vim.keymap.set('n', 'gr', vim.lsp.buf.references, opts)
 end)
+
 
 lsp.setup()
 print("loaded LSP Config")
