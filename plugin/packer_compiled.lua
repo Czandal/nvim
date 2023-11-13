@@ -154,6 +154,12 @@ _G.packer_plugins = {
     path = "/home/czandal/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
+  ["oil.nvim"] = {
+    config = { "\27LJ\2\2¹\3\0\0\3\0\6\0\t6\0\0\0'\1\1\0B\0\2\0029\0\2\0005\1\4\0005\2\3\0=\2\5\1B\0\2\1K\0\1\0\fkeymaps\1\0\1\24use_default_keymaps\1\1\0\16\n<C-c>\18actions.close\ag.\26actions.toggle_hidden\6`\15actions.cd\n<C-l>\20actions.refresh\n<C-t>\23actions.select_tab\n<C-s>\26actions.select_vsplit\6~\16actions.tcd\agx\26actions.open_external\ag?\22actions.show_help\n<C-h>\25actions.select_split\t<CR>\19actions.select\n<C-p>\20actions.preview\6_\21actions.open_cwd\ag\\\25actions.toggle_trash\6-\19actions.parent\ags\24actions.change_sort\nsetup\boil\frequire\0" },
+    loaded = true,
+    path = "/home/czandal/.local/share/nvim/site/pack/packer/start/oil.nvim",
+    url = "https://github.com/stevearc/oil.nvim"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/czandal/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -193,6 +199,10 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
+-- Config for: oil.nvim
+time([[Config for oil.nvim]], true)
+try_loadstring("\27LJ\2\2¹\3\0\0\3\0\6\0\t6\0\0\0'\1\1\0B\0\2\0029\0\2\0005\1\4\0005\2\3\0=\2\5\1B\0\2\1K\0\1\0\fkeymaps\1\0\1\24use_default_keymaps\1\1\0\16\n<C-c>\18actions.close\ag.\26actions.toggle_hidden\6`\15actions.cd\n<C-l>\20actions.refresh\n<C-t>\23actions.select_tab\n<C-s>\26actions.select_vsplit\6~\16actions.tcd\agx\26actions.open_external\ag?\22actions.show_help\n<C-h>\25actions.select_split\t<CR>\19actions.select\n<C-p>\20actions.preview\6_\21actions.open_cwd\ag\\\25actions.toggle_trash\6-\19actions.parent\ags\24actions.change_sort\nsetup\boil\frequire\0", "config", "oil.nvim")
+time([[Config for oil.nvim]], false)
 -- Config for: rose-pine
 time([[Config for rose-pine]], true)
 try_loadstring("\27LJ\2\0029\0\0\2\0\3\0\0056\0\0\0009\0\1\0'\1\2\0B\0\2\1K\0\1\0\26colorscheme rose-pine\bcmd\bvim\0", "config", "rose-pine")
